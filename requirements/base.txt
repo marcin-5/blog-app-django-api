@@ -1,0 +1,6 @@
+django~=4.2
+django-environ~=0.10
+djangorestframework~=3.14
+django-cors-headers~=4.2
+drf-yasg~=1.21
+argon2-cffi~=21.3
