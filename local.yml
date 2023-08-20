@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   api:
+    container_name: api
     build:
       context: .
       dockerfile: ./docker/local/django/Dockerfile
@@ -23,6 +24,7 @@ services:
       - blog-api
 
   postgres:
+    container_name: postgres
     build:
       context: .
       dockerfile: ./docker/local/postgres/Dockerfile
